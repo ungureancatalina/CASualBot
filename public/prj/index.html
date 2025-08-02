@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Freshblood - cas chatbot</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="chat-container">
+    <h1 class="main-header">CareFlow</h1>
+    <header class="chat-header">
+      <div class="bot-title">
+        <div class="bot-name">CASualBot</div>
+        <div class="bot-desc">Your assistant today</div>
+      </div>
+      <button id="menu-btn" class="menu-btn" aria-label="Show questions">☰</button>
+    </header>
+    <div id="chat-window" class="chat-window"></div>
+    <form id="chat-form" class="chat-form">
+      <input type="text" id="user-input" placeholder="Type your question... (e.g. 'medicamente' or 'card sanatate')" autocomplete="off" required />
+      <button type="submit" aria-label="Send"><span class="send-icon">&#10148;</span></button>
+    </form>
+    <div id="menu-popup" class="menu-popup hidden">
+      <div class="menu-popup-content">
+        <h2>Întrebări disponibile</h2>
+        <ul id="questions-list"></ul>
+        <button id="close-menu" class="close-menu">Închide</button>
+      </div>
+    </div>
+    <div id="support-modal" class="support-modal hidden">
+      <div class="support-modal-content">
+        <h2>Contactează un operator</h2>
+        <p>Completează adresa ta de email și un operator te va contacta în curând.</p>
+        <input type="email" placeholder="Email" class="support-email" />
+        <button class="contact-back" onclick="contactBack()">Contactează-mă înapoi</button>
+        <button class="close-support" onclick="closeSupportModal()">Închide</button>
+        <div id="support-thankyou" class="support-thankyou hidden">Mulțumim! Te vom contacta în curând.</div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html> 
