@@ -34,19 +34,7 @@ prj/
 
 ---
 
-## How to Run
-
-### Steps
-
-1. Clone the repository:
-```bash
-git clone https://github.com/ungureancatalina/socia](https://github.com/ungureancatalina/CASualBot
-cd prj
-```
-
-2. Run `start index.html` to launch the chatbot.
-3. This is how the chatbot looks like:
-
+## This is how the chatbot looks like:
 
 <img width="1603" height="1573" alt="Screenshot 2025-08-02 094201" src="https://github.com/user-attachments/assets/bbc06bac-f974-4186-9f78-a8a4cb6f30e0" />
 <img width="1407" height="1509" alt="Screenshot 2025-08-02 094152" src="https://github.com/user-attachments/assets/bca3c95a-d475-4b04-ac35-18c8f1ba24c5" />
